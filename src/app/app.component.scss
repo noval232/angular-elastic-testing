@@ -2,6 +2,9 @@
 
 button {
   @include euiButtonBase;
-  // background-color: purple;
-  // color: white;
+  text-transform: capitalize;
+}
+
+label {
+  text-transform: capitalize;
 }
