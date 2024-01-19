@@ -1,0 +1,7 @@
+@import "./../styles.scss";
+
+button {
+  @include euiButtonBase;
+  // background-color: purple;
+  // color: white;
+}
