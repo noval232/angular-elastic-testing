@@ -1,10 +1,3 @@
 @import "./../styles.scss";
-
-button {
-  @include euiButtonBase;
-  text-transform: capitalize;
-}
-
-label {
-  text-transform: capitalize;
-}
+@import "./../colors.scss";
+@import "./../button.scss";

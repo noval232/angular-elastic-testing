@@ -1,0 +1,23 @@
+@import "./styles.scss";
+@import "./colors.scss";
+
+.buton {
+  @include euiButtonBase;
+  color: #fff;
+}
+
+.button.accent {
+  background-color: $accent-color;
+}
+.button.primary {
+  background-color: $primary-color;
+}
+.button.success {
+  background-color: $succes-color;
+}
+.button.warning {
+  background-color: $warning-color;
+}
+.button.danger {
+  background-color: $danger-color;
+}
